@@ -1,0 +1,51 @@
+/*Enlazar de un archivo externo, es una buena practica hace que tu codigo
+sea mas limpio y ordenado*/
+
+/*se esta llamando a la clase "."*/
+/*body {
+  font-family: sans-serif;
+}
+
+.Biography {
+  width: 70%;/*el ancho de la pantalla(width)
+  display:inline-block;
+  font-size: 12px;
+}
+.Summary {
+  display: inline-block; /*hace que abarque solo su espacio que el necesita para aparecer
+  vertical-align: top;
+}*/
+h1, h2, h3{
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: green;
+}
+.gato1{
+  width: 540px;
+  height: 728px;
+  background: url('Image/Cute-Dark-Persian-Kitten.jpg') -10px -10px;
+}
+
+.gato2{
+  width: 600px;
+  height: 599px;
+  background: url('Image/img_cuidados_de_gatos_cachorros_21217_600.jpg') -570px -10px;
+}
+
+h2::before{
+  content: "La ";
+}
+
+h1 span{
+  color: orange;
+}
+
+p, aside, blockquote{
+  font-family: 'Manuale', serif;
+  color: blue;
+}
+img{
+  display: none;
+  height: auto;
+  width: 100px;
+}
